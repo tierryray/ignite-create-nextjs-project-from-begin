@@ -2,6 +2,20 @@
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 2rem;
+
+  button {
+    margin-top: 4rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 0;
+    background: transparent;
+    color: var(--pink-500);
+    outline: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .posts {
