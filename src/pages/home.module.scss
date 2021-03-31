@@ -3,6 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
 
+  .logo {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
   button {
     margin-top: 4rem;
     font-size: 1.125rem;
