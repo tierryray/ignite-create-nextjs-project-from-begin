@@ -7,7 +7,6 @@ import Prismic from '@prismicio/client';
 import { format } from 'date-fns';
 import { getPrismicClient } from '../services/prismic';
 import ptBR from 'date-fns/locale/pt-BR';
-// import commonStyles from '../styles/common.module.scss';
 import styles from './home.module.scss';
 import { useState } from 'react';
 

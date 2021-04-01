@@ -5,7 +5,6 @@ import Head from 'next/head';
 import Header from '../../components/Header';
 import Prismic from '@prismicio/client';
 import { RichText } from 'prismic-dom';
-import commonStyles from '../../styles/common.module.scss';
 import { format } from 'date-fns';
 import { getPrismicClient } from '../../services/prismic';
 import ptBR from 'date-fns/locale/pt-BR';
